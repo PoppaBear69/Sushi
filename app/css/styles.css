@@ -1,5 +1,4 @@
 @import url("http://fonts.googleapis.com/css?family=Lato:300,400,700");
-
 body {
   margin: 12px;
   color: #333;
@@ -7,7 +6,6 @@ body {
   line-height: 1.6;
   background-color: #ddd;
 }
-
 a {
   color: #600;
   text-decoration: none;
@@ -15,11 +13,9 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
 header {
   font-family: Lobster, cursive;
 }
-
 header h1,
 header h2 {
   font-size: 4rem;
@@ -30,7 +26,6 @@ header h2 {
   font-size: 2rem;
   border-bottom: 1px dotted #600;
 }
-
 .nav {
   list-style: none;
   padding: 0;
@@ -51,13 +46,12 @@ header h2 {
   text-decoration: none;
   background-color: #600;
   display: block;
-   transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .nav a:hover {
   color: #222;
   background-color: #f0dfb4;
 }
-
 aside {
   width: 180px;
   padding: 4px;
@@ -66,22 +60,18 @@ aside {
   position: absolute;
   top: 200px;
   left: 20px;
-  
   font-size: 0.875rem;
   box-shadow: 3px 3px 3px #ddd;
   border-radius: 4px;
 }
- 
 aside th {
   text-align: right;
 }
-
 aside ul {
   list-style: none;
   margin: 0.5rem;
   padding: 0;
 }
-
 article {
   margin: 0 20px 0 240px;
 }
@@ -98,25 +88,21 @@ blockquote::before {
   font-size: 4rem;
   font-weight: bold;
   font-family: serif;
-  color: #333;
+  color: #600;
   line-height: 0.1em;
   vertical-align: -0.4em;
-  color: #600;
 }
 article p::first-line {
-  font-weight: bold; 
-  font-size: ;
+  font-weight: bold;
 }
 main {
   max-width: 840px;
-  margin: 0 auto 0 auto;
-  /* border: 1px solid #999; */
+  margin: 0 auto;
   position: relative;
   background-color: #fff;
   padding: 1rem;
   box-shadow: 0px 0px 6px 2px #aaa;
 }
-
 @media all and (width < 800px) {
   body {
     margin: 0;
@@ -138,20 +124,18 @@ main {
   .nav li a {
     border-radius: 0;
   }
-aside {
-  position: static;
-  margin-right: 20px;
-  width: 100% ;
-}
-blockquote {
-  width: 100%;
-  float: none;
-  margin: 0;
-}
-img {
-  float: none;
-  width: 100%;
-}
-
-
+  aside {
+    position: static;
+    margin-right: 20px;
+    width: 100%;
+  }
+  blockquote {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+  img {
+    float: none;
+    width: 100%;
+  }
 }
