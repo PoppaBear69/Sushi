@@ -124,8 +124,7 @@ main {
   article {
     margin-left: 0;
   }
-  
-.nav {
+  .nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -139,6 +138,20 @@ main {
   .nav li a {
     border-radius: 0;
   }
+aside {
+  position: static;
+  margin-right: 20px;
+  width: 100% ;
+}
+blockquote {
+  width: 100%;
+  float: none;
+  margin: 0;
+}
+img {
+  float: none;
+  width: 100%;
+}
 
 
 }
